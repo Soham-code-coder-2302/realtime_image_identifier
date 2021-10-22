@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Realtime face recognization</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body background="bg.jpg">
+  
+  <center>
+ <div id="heading">
+<h1 class="realtime_ide">Realtime Identification</h1>  
+ <hr>
+
+ <div id="obects">
+<h3>The Model is trained on the following objects - </h1>
+<br>
+<label>Dad | Mom | Sister | Grand Mother</label>
+ </div>
+</div>     
+<div>
+<br>
+ <button class="btn btn-warning" id="Object">Object :</button>
+ <br>
+ <div id="object_display"></div>
+ <br>
+ 
+ <button class="btn btn-success" id="Accuracy"> Accuracy : </button>
+ <br>
+ <div id="Accuracy"></div>
+<script src="main.js"></script>
+</center>
+  </body>
+
+  </html>
